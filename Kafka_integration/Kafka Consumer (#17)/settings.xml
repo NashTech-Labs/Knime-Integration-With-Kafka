@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="kafka-consumer-settings_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_kafka"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="kafka-consumer-settings">
+<entry key="auto.offset.reset" type="xstring" value="earliest"/>
+<entry key="check.crcs" type="xstring" value="true"/>
+<entry key="exclude.internal.topics" type="xstring" value="true"/>
+<entry key="fetch.max.bytes" type="xstring" value="52428800"/>
+<entry key="fetch.max.wait.ms" type="xstring" value="500"/>
+<entry key="fetch.min.bytes" type="xstring" value="1"/>
+<entry key="heartbeat.interval.ms" type="xstring" value="3000"/>
+<entry key="interceptor.classes" type="xstring" value=""/>
+<entry key="internal.leave.group.on.close" type="xstring" value="false"/>
+<entry key="isolation.level" type="xstring" value="read_uncommitted"/>
+<entry key="max.partition.fetch.bytes" type="xstring" value="1048576"/>
+<entry key="max.poll.interval.ms" type="xstring" value="300000"/>
+<entry key="partition.assignment.strategy" type="xstring" value="org.apache.kafka.clients.consumer.RangeAssignor"/>
+<entry key="receive.buffer.bytes" type="xstring" value="65536"/>
+<entry key="request.timeout.ms" type="xstring" value="305000"/>
+<entry key="session.timeout.ms" type="xstring" value="10000"/>
+</config>
+<config key="topic_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="topic" type="xstring" value="transactions"/>
+<config key="topic-pattern_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="topic-pattern" type="xboolean" value="false"/>
+<config key="append-topic-column_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="append-topic-column" type="xboolean" value="false"/>
+<config key="group-id_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="group-id" type="xstring" value="KNIME"/>
+<config key="convert-to-JSON_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="convert-to-JSON" type="xboolean" value="false"/>
+<config key="max-msgs-per-poll_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="max-msgs-per-poll" type="xint" value="100"/>
+<config key="poll-timeout-ms_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMN_long"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="poll-timeout-ms" type="xlong" value="1000"/>
+<config key="client-id_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="client-id" type="xstring" value="KNIME"/>
+<config key="stop-criterion_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="stop-criterion" type="xstring" value="&lt;html&gt;Stop when message&lt;br/&gt;timestamp exceeds:&lt;/html&gt;"/>
+<config key="total-num-polled-msgs_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMN_long"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="total-num-polled-msgs" type="xlong" value="500"/>
+<config key="latest-date-time_Internals">
+<entry key="SettingsModelID" type="xstring" value="settingsmodel.date&amp;time"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="latest-date-time" type="xstring" value="2020-12-31T13:37:22+05:30[Asia/Kolkata]"/>
+<config key="use-cur-time_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="use-cur-time" type="xboolean" value="false"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Consume records%%00010 from%%00010&quot;transactions&quot; %%00010topic"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="197"/>
+<entry key="y-coordinate" type="xint" value="344"/>
+<entry key="width" type="xint" value="134"/>
+<entry key="height" type="xint" value="76"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="11"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.kafka.node.consumer.KafkaConsumerNodeFactory"/>
+<entry key="node-name" type="xstring" value="Kafka Consumer"/>
+<entry key="node-bundle-name" type="xstring" value="Apache Kafka integration"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.kafka"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.2.0.v202006230509"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Extension for Apache Kafka (Preview)"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.kafka.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.2.0.v202006230509"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Kafka Consumer"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 5, Cols: 1"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="6f1a5391-1e47-4945-89a8-3ea542da7fa1"/>
+</config>
+</config>

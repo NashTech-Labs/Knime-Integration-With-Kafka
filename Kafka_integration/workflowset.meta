@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">Swantika Gupta</met:element>
+<met:element form="date" read-only="false" name="Creation Date">5/7/2020/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">Knime Integration with Kafka
+
+This workflow represents a worfklow that receives information from kafka, perform operation on it and publish it back to kafka.
+
+This workflow consumes transactions in JSON format from kafka. For the customer ID field in a record, the workflow fetches extra customer informaton from an already existing table and appends the information to the processing record. Also, the same is done for each product number in the record. Once, complete information is available in a single table, the workflow aggregates the data to calculate all the products bought by a single customer and the total amount spent by him. This aggregated information is passed back to kafka on topic "customer_transactions".
+
+To run this worfklow :
+1. Start Kafka cluster on your local system
+2. Create a topic "transactions" and publish JSON records of the following form to it:
+{"OrderNumber" : 23893756,"Date" : "8-28-2015","CustomerID" : "69-695-442-229","ProductNr" : "I-163-2017"}.
+3. Once that is done, edit kafka consumer node to edit the stop criteria and change the time stamp value.
+4. Now, run the workflow
+5. Once the workflow is completed, run a kafka consumer on your local system and consume from the topic "customer_transactions". The processed records with aggregated information should be available on the new topic.
+
+TAGS: Kafka,kafka extension knime,ETL,pub-sub</met:element>
+</met:KNIMEMetaInfo>

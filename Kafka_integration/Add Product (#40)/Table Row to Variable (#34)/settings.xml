@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="RowID"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Iteration"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ProductNr"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Date"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_4">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="OrderNumber"/>
+<entry key="class" type="xstring" value="LONG"/>
+<entry key="value" type="xlong" value="0"/>
+</config>
+<config key="Variable_5">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Newsletter"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_6">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Email"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_7">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Age"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_8">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Birthday"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_9">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="LastName"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_10">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="FirstName"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_11">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="CustomerID"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_12">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Country"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_13">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="City"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_14">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="RowID"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Row1033_Row0#0"/>
+</config>
+<config key="Variable_15">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Iteration"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_16">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ProductNr"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="I-163-2017"/>
+</config>
+<config key="Variable_17">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Date"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="8-28-2015"/>
+</config>
+<config key="Variable_18">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="OrderNumber"/>
+<entry key="class" type="xstring" value="LONG"/>
+<entry key="value" type="xlong" value="23893756"/>
+</config>
+<config key="Variable_19">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Newsletter"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="0"/>
+</config>
+<config key="Variable_20">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Email"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Leonie.Schimanski@mcr.com"/>
+</config>
+<config key="Variable_21">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Age"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="37"/>
+</config>
+<config key="Variable_22">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Birthday"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="16.12.1982"/>
+</config>
+<config key="Variable_23">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="LastName"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Schimanski"/>
+</config>
+<config key="Variable_24">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="FirstName"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Leonie"/>
+</config>
+<config key="Variable_25">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="CustomerID"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="69-695-442-229"/>
+</config>
+<config key="Variable_26">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Country"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="United States"/>
+</config>
+<config key="Variable_27">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="City"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="New York"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="CFG_FAILONMISS_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_FAILONMISS" type="xstring" value="Use Defaults"/>
+<config key="CFG_Integer_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_Integer" type="xint" value="0"/>
+<config key="CFG_Long_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMN_long"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_Long" type="xlong" value="0"/>
+<config key="CFG_Double_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_Double" type="xdouble" value="0.0"/>
+<config key="CFG_String_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_String" type="xstring" value="missing"/>
+<config key="CFG_Boolean_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_Boolean" type="xstring" value="false"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.flowvariable.tablerowtovariable2.TableToVariable2NodeFactory"/>
+<entry key="node-name" type="xstring" value="Table Row to Variable"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.2.3.v202011031328"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.2.3.v202011031328"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Table Row to Variable"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>
