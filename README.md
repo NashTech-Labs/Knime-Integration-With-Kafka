@@ -11,3 +11,9 @@ To run this worfklow :
 5. Once the workflow is completed, run a kafka consumer on your local system and consume from the topic "customer_transactions". The processed records with aggregated information should be available on the new topic.
 
 Kafka producer and consumer nodes in knime have an extra set of additional configurations that map to the options available for kafka producer and consumer respectively.
+
+To use a knime workflow on knime analytics platform
+1. Clone the repo
+2. Zip the folder created
+3. On knime analytics platform, go to file > Import workflow
+4. Here, select the zip folder. The data files, along with the workflow will be imported in the Analytics Platform. 
