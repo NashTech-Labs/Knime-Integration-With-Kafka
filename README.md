@@ -2,7 +2,7 @@ This Knime workflow represents a pipeline that receives information from kafka's
 
 This workflow consumes transaction records for each customer ID in JSON format from kafka. For the customer ID field in a record, the workflow fetches extra customer informaton from an already existing table and appends the information to the processing record. Also, the same is done for each product number in the record. Once, complete information is available in a single table, the workflow aggregates the data to calculate all the products bought by a single customer and the total amount spent by him. This aggregated information is passed back to kafka on topic "customer_transactions".
 
-To run this worfklow :
+<B>To run this worfklow: </B>
 1. Start Kafka cluster on your local system
 2. Create a topic "transactions" and publish JSON records of the following form to it:
 {"OrderNumber" : 23893756,"Date" : "8-28-2015","CustomerID" : "69-695-442-229","ProductNr" : "I-163-2017"}.
@@ -12,7 +12,7 @@ To run this worfklow :
 
 Kafka producer and consumer nodes in knime have an extra set of additional configurations that map to the options available for kafka producer and consumer respectively.
 
-To use a knime workflow on knime analytics platform
+<B>To use a knime workflow on knime analytics platform</B>
 1. Clone the repo
 2. Zip the folder created
 3. On knime analytics platform, go to file > Import workflow
